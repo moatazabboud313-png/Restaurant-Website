@@ -1,0 +1,677 @@
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+html {
+    scroll-behavior: smooth;
+}
+/*Edit 1*/
+body {
+    color: #FF8000;    ;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+a {
+    color: #e31212;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1
+}
+
+button:focus {
+    outline: none;
+}
+
+ul,
+li,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+p {
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+    outline: none !important;
+}
+
+a,
+.btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ :focus {
+    outline: 0;
+}
+
+.paddind_bottom_0 {
+    padding-bottom: 0 !important;
+}
+
+.btn-custom {
+    margin-top: 20px;
+    background-color: transparent !important;
+    border: 2px solid #ddd;
+    padding: 12px 40px;
+    font-size: 16px;
+}
+
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767676;
+    margin: 0;
+    padding: 0;
+}
+
+.form-control:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+    border: none !important;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+blockquote {
+    margin: 20px 0 20px;
+    padding: 30px;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.full {
+    float: left;
+    width: 100%;
+}
+
+.layout_padding {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.padding_0 {
+    padding: 0px;
+}
+
+
+/* Edit 2*/
+
+.header_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/cover.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* Edit 3*/
+
+.header_bg {
+    width: 100%;
+    float: left;
+    background-image: url(../images/header-bg.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.header_bg .navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.mr-auto,
+.mx-auto {
+    margin: 0 auto;
+    text-align: center;
+}
+/* Edit 3*/
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 3px 10px;
+    font-size: 17px;
+    color: #FF8000;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+/* Edit 4*/
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #333258;    ;
+}
+/* Edit 4*/
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #333258;
+}
+
+.navbar-brand {
+    margin: 0px;
+    float: right;
+}
+
+.navbar {
+    padding: 15px 50px;
+}
+
+.user_icon {
+    padding-right: 15px;
+}
+
+.login_bt {
+    width: 210px;
+}
+
+.login_bt ul {
+    margin: 0px;
+    padding: 0px;
+}
+/* header section end */
+
+
+/* banner section start */
+
+.banner_section {
+    width: 100%;
+    float: left;
+    padding: 90px 0px 100px 0px;
+}
+
+.banner_taital_main {
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+/* Edit 6*/
+.banner_taital {
+    width: 100%;
+    font-size: 80px;
+    color: #FF8000;
+    font-weight: 800;
+}
+/* Edit 6*/
+.tasty_text {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #333258;
+    font-weight: bold;
+}
+/* Edit 6*/
+.banner_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #FF8000;
+    margin: 0px;
+}
+
+.btn_main {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
+.about_bt {
+    width: 175px;
+    float: left;
+}
+/* Edit 7*/
+.about_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    background-color: #333258;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+}
+/* Edit 7*/
+.about_bt a:hover {
+    color: #fefefd;
+    background-color: #FF8000;
+}
+
+#banner_slider a.carousel-control-prev {
+    left: -120px;
+    top: 455px;
+}
+.banner_img {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+/* banner section end */
+
+
+/* coffee section start */
+
+.coffee_section {
+    width: 100%;
+    float: left;
+    background-color: #1E1E1E;
+}
+/* Edit 8*/
+
+.coffee_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #FF8000;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.coffee_section_2 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bulit_icon {
+    width: 100%;
+    text-align: center;
+}
+
+.coffee_img img {
+    width: 100%;
+    float: left;
+}
+/* Edit 8*/
+.types_text {
+    width: 100%;
+    float: left;
+    font-size: 22px;
+    color: #FF8000;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+/* Edit 8*/
+.looking_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+}
+/**/
+.cssbuttons-io-button {
+    background: #333258;    ;
+    color: white;
+    font-family: inherit;
+    margin: 0 auto;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #333258;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: #FF8000;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #626262;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #333258;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+/**/
+.read_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+}
+/* coffee section end */
+/* about section start */
+
+.about_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+    background-color: #1E1E1E;
+}
+
+.about_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+    background-color: #1E1E1E;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #FF8000;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.about_taital_box {
+    width: 500px;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    padding: 40px 20px 30px 20px;
+    box-shadow: 0px 0px 30px 0px;
+    position: absolute;
+    top: 1550px;
+}
+
+.image_iman {
+    padding-left: 250px;
+    position: relative;
+}
+
+.about_img {
+    width: 100%;
+}
+
+.about_taital_1 {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #333258;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    margin: 0px;
+}
+/* about section end */
+
+/* contact section start */
+
+.contact_section {
+    width: 100%;
+    float: left;
+    background-color: #1E1E1E;
+}
+
+.contact_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #FF8000;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 55px;
+}
+
+.padding_left_0 {
+    padding-left: 0px;
+}
+
+.mail_section_1 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.mail_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    border: 1px;
+    background-color: #b3b3b3;
+    padding: 11px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input.mail_text::placeholder {
+    color: #333258;
+}
+
+.massage-bt {
+    color: #000000;
+    width: 100%;
+    height: 110px;
+    font-size: 18px;
+    background-color: #b3b3b3;
+    padding: 40px 20px 0px 20px;
+    border: 0px;
+    height: 110px;
+    margin-top: 20px;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea#comment.massage-bt::placeholder {
+    color: #333258;
+}
+
+.send_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.send_bt a {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #333258;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin: 20px;
+    display: block;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.send_bt a:hover {
+    color: #ffffff;
+    background-color: #FF8000;
+}
+
+.map_main {
+    width: 100%;
+    float: left;
+    margin-top: 90px;
+}
+
+
+/* contact section end */
+/* copyright section start */
+
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #FF8000;
+    height: auto;
+}
+
+.copyright_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #333258;
+    text-align: center;
+    margin-left: 280px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright_text a {
+    color: #333258;
+}
+
+.copyright_text a:hover {
+    color: #000000;
+}
+
+
+/* copyright section end */
+
+.margin_top90 {
+    margin-top: 90px;
+}
